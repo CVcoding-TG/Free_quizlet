@@ -125,7 +125,7 @@ text-decoration: underline;</string>
       </rect>
      </property>
      <property name="currentIndex">
-      <number>1</number>
+      <number>2</number>
      </property>
      <widget class="QWidget" name="page_choice_C">
       <widget class="QPushButton" name="pb_noteI_choice_C">
@@ -591,6 +591,195 @@ color: rgb(0, 85, 255);</string>
         <string>PushButton</string>
        </property>
       </widget>
+     </widget>
+     <widget class="QWidget" name="page_end_C">
+      <widget class="QLabel" name="lb_backgroudStack_end_C">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>776</width>
+         <height>468</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="lb_noteI_end_C">
+       <property name="geometry">
+        <rect>
+         <x>170</x>
+         <y>110</y>
+         <width>433</width>
+         <height>149</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap>../images/ui_C/lb_noteI_end_C.png</pixmap>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pb_upload_end_C">
+       <property name="geometry">
+        <rect>
+         <x>300</x>
+         <y>350</y>
+         <width>183</width>
+         <height>99</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../images/ui_C/pb_upload_end_C.png</normaloff>../images/ui_C/pb_upload_end_C.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>183</width>
+         <height>99</height>
+        </size>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="page_write_C">
+      <widget class="QPushButton" name="pb_noteI_write_C">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>20</y>
+         <width>62</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../images/ui_C/pb_noteI_choice_C.png</normaloff>../images/ui_C/pb_noteI_choice_C.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>62</width>
+         <height>25</height>
+        </size>
+       </property>
+      </widget>
+      <widget class="QLabel" name="lb_backgroudStack_write_C">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>776</width>
+         <height>468</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="lb_num_write_C">
+       <property name="geometry">
+        <rect>
+         <x>700</x>
+         <y>20</y>
+         <width>61</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;1/10&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="lb_word_write_C">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>70</y>
+         <width>601</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 14pt &quot;华文中宋&quot;;</string>
+       </property>
+       <property name="text">
+        <string>TextLabel</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="lb_noteII_write_C">
+       <property name="geometry">
+        <rect>
+         <x>33</x>
+         <y>260</y>
+         <width>60</width>
+         <height>23</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap>../images/ui_C/lb_noteII_write_C.png</pixmap>
+       </property>
+      </widget>
+      <widget class="QLabel" name="lb_answer_write_C">
+       <property name="geometry">
+        <rect>
+         <x>60</x>
+         <y>290</y>
+         <width>691</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 700 14pt &quot;微软雅黑&quot;;</string>
+       </property>
+       <property name="text">
+        <string>&quot;文本&quot;</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pv_next_write_C">
+       <property name="geometry">
+        <rect>
+         <x>660</x>
+         <y>400</y>
+         <width>90</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../images/ui_C/pb_next_write_C.png</normaloff>../images/ui_C/pb_next_write_C.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>90</width>
+         <height>51</height>
+        </size>
+       </property>
+      </widget>
+      <zorder>lb_backgroudStack_write_C</zorder>
+      <zorder>pb_noteI_write_C</zorder>
+      <zorder>lb_num_write_C</zorder>
+      <zorder>lb_word_write_C</zorder>
+      <zorder>lb_noteII_write_C</zorder>
+      <zorder>lb_answer_write_C</zorder>
+      <zorder>pv_next_write_C</zorder>
      </widget>
     </widget>
    </widget>
